@@ -1,0 +1,20 @@
+{
+  "name": "uproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:db": "json-server -w db.json",
+    "start:parcel": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "parcel": "^2.9.2"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3"
+  }
+}
